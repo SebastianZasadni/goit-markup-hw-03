@@ -145,8 +145,16 @@ h1 {
   cursor: pointer;
 }
 section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 0px;
+}
+
+.lorem-table {
+  border-spacing: 30px 0px;
+  margin-left: 185px;
+  margin-top: 94px;
+}
+.lorem-table td {
+  width: 270px;
 }
 .lorem-header {
   font-weight: 700;
@@ -159,14 +167,28 @@ section {
   font-size: 14px;
   line-height: 1.71;
 }
+
 .section-header {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin: 0px;
+  padding-bottom: 50px;
 }
+.workimg-box {
+  margin-left: 185px;
+}
+.work-img {
+  margin-left: 30px;
+}
+
 section.bottom {
   background-color: #f5f4fa;
+}
+.team-table {
+  padding-left: 185px;
+  border-spacing: 30px 0px;
 }
 .teammate-box {
   background-color: #fff;
@@ -179,12 +201,17 @@ section.bottom {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .job-title {
   color: #757575;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  padding-bottom: 30px;
+  margin: 0px;
 }
 .portfolio-button {
   background-color: #f5f4fa;
