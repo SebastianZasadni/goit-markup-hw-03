@@ -146,6 +146,7 @@ h1 {
 }
 section {
   padding: 94px 0px;
+  margin: 0px;
 }
 
 .lorem-table {
@@ -213,7 +214,18 @@ section.bottom {
   padding-bottom: 30px;
   margin: 0px;
 }
+.portfolio-list {
+  margin: 0px;
+  padding: 0px;
+  padding-left: 502px;
+  list-style: none;
+}
+.portfolio-list .portfolio-item {
+  display: inline;
+}
 .portfolio-button {
+  margin-left: 8px;
+  padding: 6px 22px;
   background-color: #f5f4fa;
   border-radius: 4px;
   font-weight: 500;
@@ -223,6 +235,7 @@ section.bottom {
   cursor: pointer;
 }
 .portfolio-button:hover {
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -233,8 +246,10 @@ section.bottom {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  margin-left: 8px;
 }
 .portfolio-button:focus {
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -245,6 +260,16 @@ section.bottom {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  margin-left: 8px;
+}
+.portfolio-table {
+  padding-left: 185px;
+  border-spacing: 30px;
+  padding-top: 20px;
+}
+.portfolio-table td {
+  background: #ffffff;
+  border-bottom: 1px solid #eeeeee;
 }
 .project-header {
   font-weight: 700;
