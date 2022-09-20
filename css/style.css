@@ -213,14 +213,13 @@ section.bottom {
   margin: 0px;
 }
 .portfolio-list {
+  display: flex;
   margin: 0px;
   padding: 0px;
-  padding-left: 502px;
+  justify-content: center;
   list-style: none;
 }
-.portfolio-list .portfolio-item {
-  display: inline;
-}
+
 .portfolio-button {
   margin-left: 8px;
   padding: 6px 22px;
@@ -260,13 +259,14 @@ section.bottom {
   border-radius: 4px;
   margin-left: 8px;
 }
-.portfolio-table {
-  padding-left: 185px;
-  border-spacing: 30px;
-  padding-top: 20px;
+.project-container {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
 }
-.portfolio-table td {
-  background: #ffffff;
+.project-card {
   border-bottom: 1px solid #eeeeee;
 }
 .project-header {
