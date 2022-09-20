@@ -6,21 +6,20 @@ body {
   width: 1200px;
   margin: auto;
 }
-header {
+header .container {
+  padding: 24px 0px;
+  align-items: center;
   display: flex;
   background-color: #fff;
-  padding-top: 24px;
+
   border-bottom: 1px solid #ececec;
 }
 footer {
   background-color: #2f303a;
-
-  padding-top: 54px;
+  padding: 60px 0px 60px 0px;
 }
 .logo {
   margin: 0px;
-
-  display: block;
   text-decoration: none;
   font-family: "Raleway";
   color: #2196f3;
@@ -37,11 +36,12 @@ footer {
 
 .nav-list {
   list-style: none;
-  display: flex;
-  margin: 0px;
+  display: inline-flex;
   margin-left: 47px;
-  padding-top: 6px;
-  padding-bottom: 32px;
+  padding: 0px;
+}
+.nav-item {
+  margin-left: 46px;
 }
 .nav-link {
   text-decoration: none;
@@ -50,7 +50,6 @@ footer {
   font-size: 14px;
   line-height: 1.14;
   color: #212121;
-  padding-left: 46px;
 }
 .nav-link:focus {
   text-decoration: none;
@@ -70,9 +69,7 @@ footer {
 }
 .contact-nav {
   margin: 0px;
-  padding-left: 321px;
-  padding-top: 6px;
-  padding-bottom: 32px;
+  padding-left: 371px;
 }
 .contact-link {
   text-decoration: none;
@@ -80,7 +77,7 @@ footer {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  margin-left: 50px;
+  margin-right: 50px;
   display: inline-block;
 }
 .contact-link:hover {
@@ -89,7 +86,7 @@ footer {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  margin-left: 50px;
+  margin-right: 50px;
   display: inline-block;
 }
 .contact-link:focus {
@@ -98,7 +95,7 @@ footer {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  margin-left: 50px;
+  margin-right: 50px;
   display: inline-block;
 }
 address {
@@ -106,12 +103,11 @@ address {
   font-size: 14px;
   line-height: 1.71;
   padding-top: 20px;
-  padding-left: 215px;
+  margin: 0px;
 }
 .contact-footer {
   margin: 0px;
-  padding-left: 165px;
-  padding-bottom: 60px;
+  padding: 0px;
 }
 .contact-footer .contact-link {
   padding-top: 9px;
