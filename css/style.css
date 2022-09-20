@@ -3,7 +3,8 @@ body {
   color: #212121;
 }
 .container {
-  width: 1600px;
+  width: 1200px;
+  margin: auto;
 }
 header {
   display: flex;
@@ -18,7 +19,7 @@ footer {
 }
 .logo {
   margin: 0px;
-  padding-left: 215px;
+
   display: block;
   text-decoration: none;
   font-family: "Raleway";
@@ -33,11 +34,10 @@ footer {
 .white {
   color: #fff;
 }
-.nav-list .nav-item {
-  list-style: none;
-  display: inline-block;
-}
+
 .nav-list {
+  list-style: none;
+  display: flex;
   margin: 0px;
   margin-left: 47px;
   padding-top: 6px;
@@ -146,18 +146,20 @@ h1 {
 }
 section {
   padding: 94px 0px;
-  margin: 0px;
+  margin: auto;
+}
+.lorem-box {
+  padding-bottom: 0px;
+}
+.lorem-list {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  justify-content: space-between;
 }
 
-.lorem-table {
-  border-spacing: 30px 0px;
-  margin-left: 185px;
-  margin-top: 94px;
-}
-.lorem-table td {
-  width: 270px;
-}
 .lorem-header {
+  margin: 0px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -167,6 +169,8 @@ section {
   color: #757575;
   font-size: 14px;
   line-height: 1.71;
+  margin: 0px;
+  padding-top: 10px;
 }
 
 .section-header {
@@ -178,20 +182,18 @@ section {
   padding-bottom: 50px;
 }
 .workimg-box {
-  margin-left: 185px;
-}
-.work-img {
-  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 section.bottom {
   background-color: #f5f4fa;
 }
-.team-table {
-  padding-left: 185px;
-  border-spacing: 30px 0px;
+.ourteam-box {
+  display: flex;
+  justify-content: space-between;
 }
-.teammate-box {
+.ourteam-card {
   background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
