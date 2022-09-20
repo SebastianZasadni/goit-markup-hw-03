@@ -6,13 +6,14 @@ body {
   width: 1200px;
   margin: auto;
 }
+header {
+  border-bottom: 1px solid #ececec;
+}
 header .container {
   padding: 24px 0px;
   align-items: center;
   display: flex;
   background-color: #fff;
-
-  border-bottom: 1px solid #ececec;
 }
 footer {
   background-color: #2f303a;
