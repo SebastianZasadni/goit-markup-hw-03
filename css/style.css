@@ -85,6 +85,9 @@ footer {
   margin-right: 50px;
   display: inline-block;
 }
+.contact-link:not(:last-child) {
+  margin-right: 30px;
+}
 .contact-link:hover {
   text-decoration: none;
   color: var(--light-blue);
